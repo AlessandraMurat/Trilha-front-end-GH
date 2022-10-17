@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="assets/images/logo-64px.png"
+            alt="logo com referência ao programa hall learning, sendo a metade de um cérebro e outra metade uma engrenagem"
+          />
+          <h1>Learning GH</h1>
+        </div>
+        <button class="buttonHamburguer" onclick="abrirMenu()"><i class="fa-solid fa-bars"></i></button>
+        <ul id="botoesMenu">
+          <li><a href="#about" role="navigation">Quem somos</a></li>
+          <li><a href="#trials" role="navigation">Trilhas</a></li>
+          <li class="dropdown">
+            <a class="dropbtn" role="navigation">Comunidades</a>
+            <div class="dropdown-content">
+              <a href="./communityAgile.html" role="navigation">Comunidade Ágil</a>
+              <a href="/communityDev.html" role="navigation">Comunidade Dev</a>
+            </div>
+          </li>
+          <li class="link-mobile"><a href="./communityAgile.html" role="navigation">Comunidade Ágil</a></li>
+          <li class="link-mobile"><a href="./communityDev.html" role="navigation">Comunidade Dev</a></li>
+          <li class="subscribe">
+            <a class="link-subscribe" href="#" role="navigation">Inscreva-se</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container container-sections">
+        <div class="content-sections">
+          <h2>Programa de Capacitação HITSS</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eos
+            repudiandae, esse facere atque reiciendis repellendus possimus quas
+          </p>
+          <button class="buttonNews">Receber Novidades</button>
+        </div>
+        <div class="image-sections">
+          <img src="./assets/images/Learning-bro.svg" alt="Menino estudando online" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="box-title">
+          <span class="title-sections">Quem somos</span>
+        </div>
+        <div class="container">
+          <div class="box-img">
+            <img src="./assets/images/Starting a business project-bro.svg" alt="Duas pessoas conversando com ícones de engrenagens, gráficos e foguete." />
+          </div>
+
+         <div class="content-about">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            veritatis est illum, commodi sed in laudantium, ipsam rem deserunt
+            mollitia cumque adipisci? Sit repellendus velit alias labore
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+            veritatis est illum, commodi sed in laudantium, ipsam rem deserunt
+            mollitia cumque adipisci? Sit repellendus velit alias labore</p>
+         </div>
+         
+        </div>
+      </section>
+      <section class="trials" id="trials">
+        <div class="box-title">
+          <span class="title-sections">Principais trilhas</span>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="content">
+              <h4>Metodologia Ágil</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vitae libero ipsum itae liber.
+                
+              </p>
+              <a href="#" class="buttonTrials buttonTrialsOne" class="buttonMore">Saber mais</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-code"></i></div>
+            <div class="content">
+              <h4>Front End</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vitae libero ipsum itae liber.
+              </p>
+              <a href="#" class="buttonTrials buttonTrialsTwo">Saber mais</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fa-solid fa-gear"></i></div>
+            <div class="content">
+              <h4>DevOps</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur vitae libero ipsum itae liber.
+              </p>
+              <a href="#" class="buttonTrials buttonTrialsThree">Saber mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer >
+     <div class="container">
+      <div class="logo-footer">
+        <img src="./assets/images/logo-128px.png" alt="logo no rodapé da página" />
+        <p>Learning GH</p>
+      </div>
+      <div>
+        <h4 class="title-footer">Contatos</h4>
+      <ul class="list-footer">
+        <li class="itens-footer"><a href="#">Metodologia Ágil</a></li>
+        <li class="itens-footer"><a href="#">Front End</a></li>
+        <li class="itens-footer"><a href="#">DevOps</a></li>
+      </ul>
+      </div>
+
+      <div>
+        <h4 class="title-footer">Suporte</h4>
+       <ul class="list-footer">
+        <li class="itens-footer"><a href="#">FAQ</a></li>
+        <li class="itens-footer"><a href="#">Perguntas Frequentes</a></li>
+        <li class="itens-footer"><a href="#">Termos de Privacidade</a></li>
+       </ul>
+      </div>
+      <div>
+        <h4 class="title-footer">Contatos</h4>
+       <ul class="icons-footer">
+        <li class="itens-icons-footer"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        <li class="itens-icons-footer"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="itens-icons-footer"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="copy">
+      <p>Copyright © Alessandra Murat 2022</p>
+     </div>
+      
+    </footer>
+
+    <script>
+      function abrirMenu() {
+        const botoesMenu = document.getElementById("botoesMenu");
+
+        botoesMenu.className = botoesMenu.className.includes("responsivo")
+          ? ""
+          : "responsivo";
+      }
+    </script>
+  </body>
+</html>
